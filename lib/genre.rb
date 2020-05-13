@@ -22,5 +22,6 @@ class Genre
     @set = []
     self.songs.each do |song|
       @set << song.artist
+    end
   end
 end
