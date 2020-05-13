@@ -24,9 +24,9 @@ class Artist
   end
 
   def genres
-    set = []
+    @set = []
     self.songs.each do |song|
-      set << song.genre
+      @set << song.genre
     end
   end
 
