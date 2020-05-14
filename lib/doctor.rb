@@ -22,7 +22,7 @@ class Doctor
 
   def patients
     @set = []
-    self.appointments.each do |appointment|
+    self.appointment.each do |appointment|
       @set << appointment.patient
     end
     @set
